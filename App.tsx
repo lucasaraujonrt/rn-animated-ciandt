@@ -39,7 +39,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      {/* <Animated.View style={animatedStyles} />
+      <Animated.View style={animatedStyles} />
       <TouchableOpacity
         onPress={() => {
           width.value = withSpring(Math.random() * 250);
@@ -48,7 +48,7 @@ export default function App() {
         style={{ alignSelf: "center", paddingTop: 30 }}
       >
         <Text>Random Value</Text>
-      </TouchableOpacity> */}
+      </TouchableOpacity>
       <LayoutAnimation />
       <StatusBar style="auto" />
     </View>
